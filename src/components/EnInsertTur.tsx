@@ -19,7 +19,7 @@ export function EnInsertTur(): JSX.Element {
     )
 }
 
-const SHIFTING_HEADER_WORDS = ['Gjøvik', 'Innlands', 'NTNU']
+const SHIFTING_HEADER_WORDS = ['ODA', 'SPILL', 'KONFERANSE']
 
 function ShiftingHeader() {
     const [currentIndex, setIndex] = React.useState(0)
